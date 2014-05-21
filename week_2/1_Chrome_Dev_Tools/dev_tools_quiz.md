@@ -1,4 +1,5 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
+<img src="https://github.com/angmagda/phase_0_unit_1/tree/master/week_2/1_Chrome_Dev_Tools/imgs/points.png">
 
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
 
@@ -21,6 +22,7 @@
 
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
+    background-color: #0b0f11;
   * Tweak the background color to white.
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
   * Roll over the navigation links.  When you hover over them, they dissapear.  Let's change the hover color to black instead.
