@@ -3,42 +3,58 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+
+git add - adds file contents to the staging area. 
+If the file is new, it initially adds the file to your staging area. If the file is already tracked, you still need to call git add to add new modifications to your staging area.																		
 
 #### branch
-<!-- Your defnition here -->
+
+git branch - lists all the available branches. 
+git branch (branchname) - creates a new branch.
 
 #### checkout
-<!-- Your defnition here -->
+
+git checkout - switches between branches.
 
 #### clone
-<!-- Your defnition here -->
+
+git clone - copies a git repository so you can look at it or start modifying it. You run the code 'git clone [url]'
 
 #### commit
-<!-- Your defnition here -->
+
+git commit - saves a snapshot of the staging area. Records all the changes.
 
 #### fetch
-<!-- Your defnition here -->
+
+git fetch - will synchronize you with another repository. It updates new branches and data from a remote repo.
 
 #### log
-<!-- Your defnition here -->
+
+git log - show commit history of a branch. Shows all the commit messages that have lead up to the snapshot you are currently on.
 
 #### merge
-<!-- Your defnition here -->
+
+git merge - merges  a branch context into your current branch.
 
 #### pull
-<!-- Your defnition here -->
+
+git pull - Will basically run a 'git fetch' immediately followed by a 'git merge' of the branch on the remote repo.
 
 #### push
-<!-- Your defnition here -->
+
+git push - Updates a remote repo with the changes you have made locally.
 
 #### reset
-<!-- Your defnition here -->
+
+git reset - undoes changes and commits.
 
 #### rm
-<!-- Your defnition here -->
+
+git rm - removes files from the staging area entirely, so that it's not included in the next commit snapshot, thereby effectively deleting it.
 
 #### status
+
+git status - lets you view the status of your files in the working directory and staging area.
 
 
 ## Release 4: Git Workflow
