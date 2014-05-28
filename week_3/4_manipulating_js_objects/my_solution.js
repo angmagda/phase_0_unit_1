@@ -17,18 +17,25 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+var adam = {name: "Adam"};  // Define var adam  and assign name property with the value "Adam"
+terah.spouse = adam;  // Add a spouse property to terah and assign it the value of adam.
+terah.weight = 125; // Change the value of the terah weight property to 125.
+delete terah.eyeColor;  // Remove the eyeColor property from terah.
+adam.spouse = terah;  // Add a spouse property to adam and assign it the value of terah.
+terah.children = {};  // Add a children property to terah and and use object literal notation to assign this variable the value of a JavaScript Object object with no properties.
+terah.children.carson = {name: "Carson"}; // Add a carson property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carson".
+terah.children.carter = {name: "Carter"}; // Add a carter property to the value of the terah children property and assign it the value of an object with the property name with a value of "Carter".
+terah.children.colton = {name: "Colton"}; // Add a colton property to the value of the terah children property and assign it the value of an object with the property name with a value of "Colton".
+adam.children = terah.children; // Add a children property to adam and assign it the value of terah children.
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
+// In this challenge I ran the code from the browser console since the beginning. 
+// I didn't understand which pseudocode to turn into code, but I followed step by step the outline of Release 1. Initial solution.
+// each time I had a question I went back to the JavaScript reading material and I researched the syntax for deleting a property
+// at http://answers.oreilly.com/topic/2138-how-to-use-object-literals-in-javascript/.
+// I noticed that I have trouble remembering JavaScript syntax. I feel a little more confident with the learning competencies
+// expected for this challenge.
 // 
 // 
 // 
