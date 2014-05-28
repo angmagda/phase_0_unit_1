@@ -1,25 +1,30 @@
 // I paired [by myself, with:] on this challenge.
-
+// I did this challenge by myself.
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
-
+var secretNumber = 5;
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = [];
+var members = ["John", "Sam", "Alex", "Mary"];
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
+// I had a lot of problems with this challenge. First of all, I couldn't run it from the terminal and I thought that the
+// installation wasn't good so I uninstalled the program (node) and installed it again. Then, I navigate through my directories,
+// opened the my_solution.js and the error again. I read carefully and it wasn't a node error, was the first program error for
+// the function assert. It was very complicated to do it from there so I opened the browser console and copy/pasted the code,
+// check the errors and defined the variables.
+// I'm not sure if I added the objects to the array correctly...but it worked. I feel confident of some learning
+// competencies like defining and creating local variables and objects.
+// I didn't understand all the TDD stuff. I found tedious not knowing how to start.
+// I enjoyed the part where more number of asserts were true, hahaha.
 // 
 // 
 // 
 // 
 // 
-// 
-
-
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
