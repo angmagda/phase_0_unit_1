@@ -1,4 +1,4 @@
-// My role in the group is: Translate user stories  into pseudocode
+// My role in the group is: Translate user stories into pseudocode
  
 
 // Here is my part of the challenge:
@@ -24,3 +24,13 @@
 		// Return half value;
 
 }
+
+// My reflection
+
+// When I received the user's stories I thought the challenge was easy, but then I started to think how to solve the problem and I
+// realized it was not. Then I just started to write several ways to do it, to code (only in paper), to make little tests, 
+// and when I found the best way to do it, I wrote the pseudocode.
+// I'm finding pseudocoding a little complicated, for me it's like thinking how to solve the challenge with code and then go back
+// to pseudocode. I know that it's a better practice, so I'll continue to learn to do it efficiently.
+// I found the experience enjoyable and not tedious at all.
+// My group's solution passed all the tests, I'm so happy!

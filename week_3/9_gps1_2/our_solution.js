@@ -23,6 +23,7 @@ function Client (name, age, quote) {
     this.name = name; 
     this.age = age;
     this.quote = quote;
+    this.displayClient = displayClient;
     }
 
 var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
@@ -63,6 +64,10 @@ for (var i = 0; i < myClientsarray.length; i++) {
 
 var tomHanks = new Client ("Tom Hanks", 57, "A hero is somebody who voluntarily walks into the unknown");
 
+function displayClient() {
+  var result = this.name + " is an actor whose age is " + this.age + " and their favorite quote is " + this.quote;
+  console.log(result);
+}
 
 // I tried to add a for loop which would add the new client to our Array, but is not working.
 
